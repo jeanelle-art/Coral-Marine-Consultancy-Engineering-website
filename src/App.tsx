@@ -22,7 +22,10 @@ import {
   X
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-
+import imgKarl from '../IMG-20241206-WA0017.jpg'
+import img2 from '../IMG-20250421-WA0049.jpg'
+import img3 from '../IMG-20250807-WA0007.jpg'
+import img4 from '../IMG-20251114-WA0013.jpg'
 // --- Types ---
 interface NavLinkProps {
   href: string;
@@ -46,7 +49,6 @@ const NavLink = ({ href, label, onClick }: NavLinkProps) => (
     {label}
   </a>
 );
-
 const SectionHeading = ({ children, light = false }: { children: ReactNode; light?: boolean }) => (
   <motion.h2 
     initial={{ opacity: 0, y: 20 }}
@@ -57,7 +59,6 @@ const SectionHeading = ({ children, light = false }: { children: ReactNode; ligh
     {children}
   </motion.h2>
 );
-
 export default function App() {
   const [scrolled, setScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -264,7 +265,7 @@ export default function App() {
               <div className="aspect-[4/5] overflow-hidden order-last md:order-first">
                 <div className="w-full h-full relative overflow-hidden">
                   <img 
-                    src="/IMG-20241206-WA0017.jpg" 
+                    src=src={imgKarl}
                     alt="Karl Briffa" 
                     className="w-full h-full object-cover object-[center_20%] grayscale brightness-[1.08] contrast-[0.98] blur-[0.4px]"
                     referrerPolicy="no-referrer"
@@ -337,7 +338,7 @@ export default function App() {
               <div className="aspect-[4/5] overflow-hidden order-first md:order-last">
                 <div className="w-full h-full relative overflow-hidden">
                   <img 
-                    src="/IMG-20250421-WA0049.jpg" 
+                    src={img2} 
                     alt="Jeanelle Cassar" 
                     className="w-full h-full object-cover object-[95%_top] scale-125 grayscale brightness-[1.08] contrast-[0.92]"
                     referrerPolicy="no-referrer"
