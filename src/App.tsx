@@ -207,10 +207,10 @@ export default function App() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-light mb-14 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light mb-14 leading-tight">
               Excellence <br /><span className="italic font-serif">at Sea</span>
             </h1>
-            <p className="text-xl md:text-2xl font-medium tracking-[0.3em] uppercase mb-20 text-gray-200">
+            <p className="text-base md:text-lg font-medium tracking-[0.3em] uppercase mb-20 text-gray-200">
               Marine Consultancy & Engineering Services
             </p>
             <a 
