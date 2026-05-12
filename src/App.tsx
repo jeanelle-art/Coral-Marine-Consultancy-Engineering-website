@@ -26,6 +26,11 @@ import imgKarl from '../IMG-20241206-WA0017.jpg'
 import img2 from '../IMG-20250421-WA0049.jpg'
 import img3 from '../IMG-20250807-WA0007.jpg'
 import img4 from '../IMG-20251114-WA0013.jpg'
+import wistaLogo from '../WISTA_logo_vertical_RGB_blue_MALTA-1-429x366.webp'
+import mmlaLogo from '../MMLA-30-Anniversary-logo-rgb.jpg'
+import transportMaltaLogo from '../R.jpeg'
+import smeLogo from '../SME-purple (1).jpg'
+import syinmLogo from '../1630609614146 (2).jpeg'
 // --- Types ---
 interface NavLinkProps {
   href: string;
@@ -405,7 +410,7 @@ export default function App() {
             <div className="flex items-center gap-6 group transition-all duration-300">
               <div className="w-28 h-28 flex items-center justify-center p-3 bg-white rounded-lg shadow-sm border border-gray-100 grayscale group-hover:grayscale-0 transition-all overflow-hidden">
                 <img 
-                  src="/WISTA_logo_vertical_RGB_blue_MALTA-1-429x366.webp" 
+                  src={wistaLogo}
                   alt="WISTA" 
                   className="max-h-full max-w-full object-contain scale-125"
                   referrerPolicy="no-referrer"
@@ -420,7 +425,7 @@ export default function App() {
             <div className="flex items-center gap-6 group transition-all duration-300">
               <div className="w-28 h-28 flex items-center justify-center p-3 bg-white rounded-lg shadow-sm border border-gray-100 grayscale group-hover:grayscale-0 transition-all overflow-hidden">
                 <img 
-                  src="/MMLA-30-Anniversary-logo-rgb.jpg" 
+                  src={mmlaLogo}
                   alt="Malta Maritime Law Association" 
                   className="max-h-full max-w-full object-contain"
                   referrerPolicy="no-referrer"
@@ -435,7 +440,7 @@ export default function App() {
             <div className="flex items-center gap-6 group transition-all duration-300">
               <div className="w-28 h-28 flex items-center justify-center p-3 bg-white rounded-lg shadow-sm border border-gray-100 grayscale group-hover:grayscale-0 transition-all overflow-hidden">
                 <img 
-                  src="/R.jpeg" 
+                  src={transportMaltaLogo}
                   alt="Transport Malta" 
                   className="max-h-full max-w-full object-contain"
                   referrerPolicy="no-referrer"
@@ -447,7 +452,7 @@ export default function App() {
             <div className="flex items-center gap-6 group transition-all duration-300">
               <div className="w-28 h-28 flex items-center justify-center p-3 bg-white rounded-lg shadow-sm border border-gray-100 grayscale group-hover:grayscale-0 transition-all overflow-hidden">
                 <img 
-                  src="/SME-purple (1).jpg" 
+                  src={smeLogo}
                   alt="Malta Chamber of SMEs" 
                   className="max-h-full max-w-full object-contain"
                   referrerPolicy="no-referrer"
@@ -459,7 +464,7 @@ export default function App() {
             <div className="flex items-center gap-6 group transition-all duration-300">
               <div className="w-28 h-28 flex items-center justify-center p-3 bg-white rounded-lg shadow-sm border border-gray-100 grayscale group-hover:grayscale-0 transition-all overflow-hidden">
                 <img 
-                  src="/1630609614146 (2).jpeg" 
+                  src={syinmLogo}
                   alt="Superyacht Industry Network Malta" 
                   className="max-h-full max-w-full object-contain"
                   referrerPolicy="no-referrer"
