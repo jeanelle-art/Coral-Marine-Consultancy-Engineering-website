@@ -24,13 +24,11 @@ import {
 import { motion, AnimatePresence } from 'motion/react';
 import imgKarl from '../IMG-20241206-WA0017.jpg'
 import img2 from '../IMG-20250421-WA0049.jpg'
-import img3 from '../IMG-20250807-WA0007.jpg'
-import img4 from '../IMG-20251114-WA0013.jpg'
 import wistaLogo from '../WISTA_logo_vertical_RGB_blue_MALTA-1-429x366.webp'
 import mmlaLogo from '../MMLA-30-Anniversary-logo-rgb.jpg'
-import transportMaltaLogo from '../R.jpeg'
-import smeLogo from '../SME-purple (1).jpg'
-import syinmLogo from '../1630609614146 (2).jpeg'
+import transportMaltaLogo from 'transport-malta.jpeg"
+import smeLogo from "/sme-purple.jpg"
+import syinmLogo from '/syinm.jpeg"'
 // --- Types ---
 interface NavLinkProps {
   href: string;
