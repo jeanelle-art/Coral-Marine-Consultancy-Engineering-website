@@ -27,8 +27,8 @@ import imgJeanelle from '../IMG-20250421-WA0049.jpg';
 import wistaLogo from '../WISTA_logo_vertical_RGB_blue_MALTA-1-429x366.webp';
 import mmlaLogo from '../MMLA-30-Anniversary-logo-rgb.jpg';
 import transportMaltaLogo from '../transport-malta.jpeg';
-import smeLogo from "/sme-purple.jpg"
-import syinmLogo from '/syinm.jpeg"'
+import smeLogo from "../sme-purple.jpg"
+import syinmLogo from '../syinm.jpeg"'
 // --- Types ---
 interface NavLinkProps {
   href: string;
