@@ -267,9 +267,9 @@ export default function App() {
             <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
               <div className="aspect-[4/5] overflow-hidden order-last md:order-first">
                 <div className="w-full h-full relative overflow-hidden">
-                  <img 
-                    src=src={imgKarl}
-                    alt="Karl Briffa" 
+                  <img
+                    src={imgKarl}
+                    alt="Karl Briffa"
                     className="w-full h-full object-cover object-[center_20%] grayscale brightness-[1.08] contrast-[0.98] blur-[0.4px]"
                     referrerPolicy="no-referrer"
                     onError={(e) => {
@@ -341,7 +341,7 @@ export default function App() {
               <div className="aspect-[4/5] overflow-hidden order-first md:order-last">
                 <div className="w-full h-full relative overflow-hidden">
                   <img 
-                    src={img2} 
+                    src={imgJeanelle}
                     alt="Jeanelle Cassar" 
                     className="w-full h-full object-cover object-[95%_top] scale-125 grayscale brightness-[1.08] contrast-[0.92]"
                     referrerPolicy="no-referrer"
