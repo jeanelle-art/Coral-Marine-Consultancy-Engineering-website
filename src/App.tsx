@@ -299,7 +299,7 @@ export default function App() {
                 </div>
                 <div className="flex gap-4 pt-4">
                   <a 
-                    href="https://www.linkedin.com/in/karlbriffa/"
+                    href="https://www.linkedin.com/in/karl-briffa-075bb121/"
                     target="_blank" 
                     rel="no-referrer"
                     className="flex items-center gap-3 text-xs uppercase tracking-widest hover:text-gray-400 transition-colors"
